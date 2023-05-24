@@ -118,7 +118,8 @@
   margin-top: auto;
 }
 
-.content {
+.recipes {
+  color: #ffffff;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
@@ -127,18 +128,14 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  position: relative;
   display: flex;
-}
-
-.recipes {
-  color: #ffffff;
-  margin-top: 100px;
-  margin-left: 80px;
+  flex-direction: column;
 }
 .recipes__title {
   max-width: 580px;
+  padding-top: 100px;
   margin-top: 0;
+  margin-left: 80px;
   margin-bottom: 24px;
   font-size: 44px;
   line-height: 52px;
@@ -148,6 +145,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin-top: 0;
+  margin-left: 80px;
   margin-bottom: 80px;
   font-family: "Noto Serif", serif;
   font-size: 20px;
@@ -159,6 +157,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 215px;
+  justify-content: center;
 }
 
 .recipes__video {
@@ -168,6 +167,8 @@
 .recipes__iframe {
   display: flex;
   flex-direction: row;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__video-caption {
@@ -189,29 +190,91 @@
 }
 
 .reservation__title {
-  margin-top: 100px auto 8px;
-  display: flex;
+  margin: 100px auto 0px;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
 }
 
 .reservation__form {
+  margin: 80px auto 8px;
+  font-weight: 500;
 }
 
 .form__fieldset {
-}
-
-.form__label {
+  max-width: 385px;
+  border: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__input {
   border-radius: 4px;
   opacity: 100%;
+  margin: 8px auto 32px;
+  padding: 0 24px;
 }
+
+.form__input[type="text"],
+.form__input[type="email"],
+.form__input[type="number"],
+.form__input[type="datetime-local"] {
+  width: 385px;
+  height: 60px;
+  border: 1px solid #838383;
+}
+
 .form__input:hover {
   opacity: 70%;
-  transition: transform 0.5s ease-in;
+  transition: linear 0.5s ease-in;
 }
-.form__checkbox {
+
+.form__button {
+  height: 60px;
+  width: 385px;
+  margin: 0px auto 32px;
+  padding: 0;
+  color: #ffffff;
+  background: #2f80ed;
+  border: none;
+  border-radius: 5px;
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition: linear 0.5s ease-in;
+}
+
+.form__input[type="text"]:focus,
+.form__input[type="email"]:focus,
+.form__input[type="number"]:focus,
+.form__input[type="datetime-local"]:focus {
+  outline-color: #2f80ed;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.form__label-checkbox {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.form__input-checkbox {
   border-radius: 2px;
-  background-color: #2f80ed;
-  background-image: url(../images/check.svg);
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.form__input::placeholder {
+  color: #8b8b8b;
+  font-size: 20px;
+  line-height: 30px;
 }
