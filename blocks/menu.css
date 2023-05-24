@@ -24,3 +24,8 @@
   font-family: "Noto Serif", serif;
   text-align: center;
 }
+
+.menu__cards {
+  list-style-type: none;
+  margin-bottom: 100px;
+}

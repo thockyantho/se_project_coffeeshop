@@ -11,13 +11,6 @@
   flex-direction: column;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-}
-
 .header__title {
   max-width: 729px;
   font-size: 60px;
