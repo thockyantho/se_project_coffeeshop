@@ -177,3 +177,41 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  margin-top: 100px auto 8px;
+  display: flex;
+}
+
+.reservation__form {
+}
+
+.form__fieldset {
+}
+
+.form__label {
+}
+
+.form__input {
+  border-radius: 4px;
+  opacity: 100%;
+}
+.form__input:hover {
+  opacity: 70%;
+  transition: transform 0.5s ease-in;
+}
+.form__checkbox {
+  border-radius: 2px;
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
+}

@@ -43,7 +43,7 @@
         </nav>
 
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty&nbsp;Coffee&nbsp;</span>
+          <span class="header__span-accent">Specialty Coffee</span>
           in the Practicum Library
         </h1>
         <p class="header__description">
@@ -107,8 +107,65 @@
             </div>
           </div>
         </section>
+
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="number" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                id="number"
+                name="Number-of-guests"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+              <label for="datetime-local" class="form__label"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                class="form__input form__input_date"
+                id="datetime-local"
+                name="datetime-local"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                value="email@email.com"
+                required
+              />
+              <button type="submit" class="form__button">Book a table</button>
+              <label class="form__label" for="checkbox">
+                <input
+                  type="checkbox"
+                  class="form__input form__checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
+
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="reservation"></section>
         <section class="contacts" id="contacts"></section>
       </main>
       <footer class="footer"></footer>
