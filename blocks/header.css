@@ -16,7 +16,8 @@
   font-size: 60px;
   line-height: 72px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 80px;
 }
 
@@ -37,6 +38,8 @@
   line-height: 30px;
   font-family: "Noto Serif", serif;
   margin-left: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -61,13 +64,5 @@
 
 .header__paragraph {
   list-style-type: none;
-  margin-left: 80px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.header__address {
-  margin-right: 80px;
-  margin-bottom: 0;
-  margin-top: auto;
+  margin: auto 80px 0 80px;
 }

@@ -5,9 +5,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -44,11 +41,17 @@
   margin-left: 40px;
 }
 
+.recipes__video:first-of-type {
+  margin-left: 0;
+}
+
 .recipes__iframe {
   display: flex;
   flex-direction: row;
   width: 480px;
   height: 273px;
+  border: none;
+  margin-bottom: 24px;
 }
 
 .recipes__video-caption {
@@ -57,4 +60,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }

@@ -23,7 +23,7 @@
   flex-direction: column;
   margin: 119px 80px 173px auto;
   z-index: 1;
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -51,14 +51,6 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  z-index: -1;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulse 1.3s ease-in-out infinite;
 }
 
