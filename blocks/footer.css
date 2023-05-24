@@ -1,0 +1,46 @@
+.contacts {
+  background-image: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  border: none;
+  padding: 60px 100px 60px 80px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.footer__list {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.footer__list-item {
+  list-style-type: none;
+  margin-top: 16px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+  transition: color 0.5s ease-in-out;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
