@@ -1,4 +1,4 @@
-.contacts {
+.footer {
   background-image: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   border: none;
@@ -15,7 +15,7 @@
   height: 21px;
 }
 
-.footer__column-heading {
+.footer__social-heading {
   margin-top: 0;
   margin-bottom: 0px;
 }
