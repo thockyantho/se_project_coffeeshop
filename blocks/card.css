@@ -1,12 +1,9 @@
-.card {
-  display: flex;
-  flex-direction: column;
-}
-
 .card__content {
   width: 540px;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card__title {
@@ -16,13 +13,18 @@
   margin: 0 0 32px 0;
 }
 
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
 .card__list-item {
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   display: flex;
-  justify-content: space-between;
   white-space: nowrap;
   margin-top: 0;
   margin-bottom: 16px;
+  list-style-type: none;
 }
 
 .card__list-item:last-of-type {
@@ -30,7 +32,6 @@
 }
 
 .card__list-divider {
-  display: flex;
   border-bottom: solid 1px;
   width: 100%;
 }
